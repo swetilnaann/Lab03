@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: BLACK;
+}
+
+/* Style for the SVG button */
+.svg-button {
+    width: 100px; /* Size of the button */
+    cursor: pointer;
+}
+
+/* colors and shadow effect */
+.svg-button circle {
+    fill: pink;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.5);
+    transition: fill 0.3s ease;
+}
+
+/* Hover effect */
+.svg-button:hover circle {
+    fill: cornflowerblue;
+}
